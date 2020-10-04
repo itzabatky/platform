@@ -126,8 +126,38 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-        <iframe width="500" height="500" src="/platform/assets/attach/election_map.html" frameborder="0" allowfullscreen=""></iframe>
+        <iframe width="100%" height="700" src="../assets/attach/election_map.html" frameborder="0" allowfullscreen=""></iframe>
         
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+
+
+<div id="eb7b7c90-056d-42d3-88d0-8bcd3d58fc66"></div>
+<div class="output_subarea output_javascript ">
+<script type="text/javascript">
+var element = $('#eb7b7c90-056d-42d3-88d0-8bcd3d58fc66');
+
+            setTimeout(function() {
+                var nbb_cell_id = 44;
+                var nbb_unformatted_code = "# hide_input\n\nIFrame(src=\"../assets/attach/election_map.html\", width=\"100%\", height=700)\n# IFrame(src='/platform/assets/attach/election_map.html', width=500, height=500)";
+                var nbb_formatted_code = "# hide_input\n\nIFrame(src=\"../assets/attach/election_map.html\", width=\"100%\", height=700)\n# IFrame(src='/platform/assets/attach/election_map.html', width=500, height=500)";
+                var nbb_cells = Jupyter.notebook.get_cells();
+                for (var i = 0; i < nbb_cells.length; ++i) {
+                    if (nbb_cells[i].input_prompt_number == nbb_cell_id) {
+                        if (nbb_cells[i].get_text() == nbb_unformatted_code) {
+                             nbb_cells[i].set_text(nbb_formatted_code);
+                        }
+                        break;
+                    }
+                }
+            }, 500);
+            
+</script>
 </div>
 
 </div>
