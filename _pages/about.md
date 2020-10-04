@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Контакт
+title: Мэта Праекта
 permalink: /about/
 ---
 
